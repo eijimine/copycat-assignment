@@ -97,16 +97,63 @@ footer {
 
 @media ( min-width: 550px ) {
 
+  section {
+    max-width: 900px;
+    margin: auto;
+  }
+
   .header {
     background: #33ffbb;
     text-align: left;
-    padding: 1em;
+    padding: 20px;
   }
 
-.headernav {
+  .headernav {
+    position: relative;
+    float: right;
+    bottom: 23px;
+  }
+
+nav > ul > li {
+  display: inline-block;
 }
 
+.title {
+  background: #15395D;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 5px;
+}
 
+article > img {
+  display: inline-block;
+  width: 65%;
+  float: left;
+}
 
+article > h1 {
+  display: inline-block;
+  color: white;
+  font-size: 31px;
+  width: 30%;
+  float: right;
+  padding-top: 23px;
+}
+
+h1 {
+  border-bottom: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.image {
+  border: 3px solid black;
+  width: 27%;
+  display: inline-block;
+  margin: 20px;
+
+}
 
 }
